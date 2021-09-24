@@ -7,6 +7,7 @@ const kImagePlay = '$_kBasePath/ic_play.png';
 const kImageBack = '$_kBasePath/ic_back.png';
 const kImageHome = '$_kBasePath/ic_home.png';
 const kImagePause = '$_kBasePath/ic_pause.png';
+const kImageLoading = '$_kBasePath/loading.png';
 const kImageComingSoon = '$_kBasePath/ic_coming_soon.png';
 
 // Constants

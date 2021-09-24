@@ -25,7 +25,7 @@ class ScreenVideo extends ConsumerWidget {
       key: _scaffoldKey,
       body: notifier.state == NotifierState.done
           ? _VideoUI(notifier.controller!)
-          : const Progress(color: Colors.blue),
+          : Image.asset(kImageLoading, width: double.maxFinite, height: double.maxFinite),
     );
   }
 }
